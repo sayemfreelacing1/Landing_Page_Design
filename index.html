@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Template Design</title>
+	<!--Font Awesome-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<!--CSS Files-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head> 
+<body>
+	<div class="container">  
+		
+		<div class="row"> <!--Login form portion-->
+			<div class="col-1">
+				<div class="header">
+					<h3>Login</h3>
+					<p>Doesn't have an account yet? </p> 
+					<a href="" class="sign-up">Sign up</a>
+				</div>
+				<form action="" method="post">
+					<div class="email-id">
+						<label for="email" class="user-name modification">Email Address</label>
+					</div>
+					<div class="icon">
+						<i class="fa-regular fa-envelope"></i>
+						<input type="text" id="email" name="usermail" placeholder="you@example.com" class="form-input">
+					</div>
+
+					<hr>
+
+					<div class="password-id">
+						<label for="password" class="user-pass modification">Password</label>
+					</div>
+					<div class="icon">
+						<i class="fa-solid fa-lock"></i>
+						<input type="text" id="pass" name="password" placeholder="Enter 6 character or more" class="form-input">
+					</div>
+
+					<hr>
+
+					<div class="flex-remember">
+						<div class="checkbox">
+							<input type="checkbox" id="remember" name="remember">
+							<label for="remember"> Remember me</label>
+					  	</div>
+						<div class="forgot-pass">
+						<p><b> Forgot Password?</b></p>
+						</div>
+					</div>
+
+					<div class="login-button">
+						<input type="submit" name="userlogin" value="LOGIN" required="require" class="form-button">
+					</div>
+
+					<p class="or-signup">Or sign up using</p>
+
+					<div class="social-media">
+						<a href="#" class="facebook">
+							<i class="fa-brands fa-facebook-f"></i>
+							Facebook
+						</a>
+
+						<a href="#" class="google">
+							<i class="fa-brands fa-google"></i>
+							Google
+						</a>
+					</div>	
+				</form>
+			</div>	
+				
+			<div class="col-2">
+				<div class="image-box"> <!--Image portion-->
+					<img src="image/image2.png" alt="image1">
+				</div>
+			</div>
+
+		</div>	
+	</div>
+</body>
+</html>
